@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Sep 11 01:25:57 2024
+# Process ID: 11632
+# Current directory: C:/Users/Siddique Traders/ariane/ariane.runs/synth_1
+# Command line: vivado.exe -log cva6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cva6.tcl
+# Log file: C:/Users/Siddique Traders/ariane/ariane.runs/synth_1/cva6.vds
+# Journal file: C:/Users/Siddique Traders/ariane/ariane.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cva6.tcl -notrace
+Command: synth_design -top cva6 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8980 
+ERROR: [Synth 8-2213] incomplete structure literal, no value is specified for field SuperscalarEn [C:/Users/Siddique Traders/VIVADOPROJECTS/ariane/include/cv32a60x_config_pkg_deprecated.sv:153]
+INFO: [Synth 8-2350] module cva6_config_pkg ignored due to previous errors [C:/Users/Siddique Traders/VIVADOPROJECTS/ariane/include/cv32a60x_config_pkg_deprecated.sv:155]
+Failed to read verilog 'C:/Users/Siddique Traders/VIVADOPROJECTS/ariane/include/cv32a60x_config_pkg_deprecated.sv'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 11 01:26:11 2024...
